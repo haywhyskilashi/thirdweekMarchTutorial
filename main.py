@@ -286,6 +286,38 @@ print(add_numbers('5', 20))
 print(add_numbers(10, 20.23))
 
 
+#Write a Python program to calculate the distance
+# between the points (x1, y1) and (x2, y2).
+
+import math
+x2 = int(input("Enter value x2: "))
+x1 = int(input("Enter value x1: "))
+y2 = int(input("Enter value y2: "))
+y1 = int(input("Enter value y1: "))
+d1 = (x2 - x1) ** 2
+d2 = (y2 - y1) ** 2
+distance = math.sqrt(d1 + d2)
+
+print(distance)
+
+
+
+# Write a Python program to convert
+# height (in feet and inches) to centimeters.
+
+height_ft = int(input("Enter value of feet: "))
+height_inch = int(input("Enter value of inch: "))
+
+height_inch += height_ft * 12
+
+height_cm = round(height_inch * 2.54, 1)
+
+print("Your height is: %d cm." % height_cm)
+
+
+
+
+
 
 
 
